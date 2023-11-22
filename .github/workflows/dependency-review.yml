@@ -13,7 +13,7 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@v66e0e6c6f5902d8a9e40a18db3fc6a08455e8ede
+        uses: actions/dependency-review-action@66e0e6c6f5902d8a9e40a18db3fc6a08455e8ede
         with:
           # options are: low, moderate, high, critical
           fail-on-severity: high
